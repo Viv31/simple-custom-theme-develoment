@@ -1,0 +1,32 @@
+/*
+Theme Name:Custom Theme
+Author:Vaibhav Gangrade
+*/
+
+body{
+	background-color: lightgrey;
+}
+
+header{
+	background-color: #fff;
+	height: 50px;
+}
+
+/* CSS FOR MENU */
+
+.navigation li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 15px;
+	
+
+}
+
+
+.navigation li :hover{
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 2px;
+}
